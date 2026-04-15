@@ -1,0 +1,95 @@
+{
+  "skills": {
+    "compose-migration": {
+      "url": "https://github.com/android/skills.git",
+      "path": "jetpack-compose/migration/migrate-xml-views-to-jetpack-compose",
+      "description": "Migrate XML views to Jetpack Compose"
+    },
+    "navigation-3": {
+      "url": "https://github.com/android/skills.git",
+      "path": "navigation/navigation-3",
+      "description": "Navigation 3 support"
+    },
+    "edge-to-edge": {
+      "url": "https://github.com/android/skills.git",
+      "path": "system/edge-to-edge",
+      "description": "Add adaptive edge-to-edge support"
+    },
+    "agp-9-upgrade": {
+      "url": "https://github.com/android/skills.git",
+      "path": "build/agp/agp-9-upgrade",
+      "description": "Upgrade to Android Gradle Plugin 9"
+    },
+    "play-billing": {
+      "url": "https://github.com/android/skills.git",
+      "path": "play/play-billing-library-version-upgrade",
+      "description": "Upgrade Play Billing Library"
+    },
+    "r8-analyzer": {
+      "url": "https://github.com/android/skills.git",
+      "path": "performance/r8-analyzer",
+      "description": "Analyze R8 behavior"
+    },
+    "maps-3d-sdk": {
+      "url": "https://github.com/googlemaps-samples/android-maps3d-samples.git",
+      "path": "skills/maps-3d-sdk",
+      "description": "Google Maps 3D SDK for Android"
+    },
+    "android-security": {
+      "url": "https://github.com/android/skills.git",
+      "path": "security/best-practices",
+      "description": "Android security best practices"
+    },
+    "test-skill": {
+      "url": "https://github.com/example/test-skill.git",
+      "description": "Test skill for verification"
+    },
+    "android-architecture": {
+      "url": "https://github.com/new-silvermoon/awesome-android-agent-skills.git",
+      "path": ".github/skills/architecture/android-architecture",
+      "description": "Guide for clean architecture (MVVM/MVI) in Android"
+    },
+    "android-maps-compose": {
+      "url": "https://github.com/googlemaps/android-maps-compose.git",
+      "path": ".gemini/skills/android-maps-compose",
+      "description": "Expert guide for integrating Google Maps into Jetpack Compose"
+    },
+    "compose-performance": {
+      "url": "https://github.com/new-silvermoon/awesome-android-agent-skills.git",
+      "path": ".github/skills/performance/compose-performance-audit",
+      "description": "Diagnosing recomposition issues and UI lag"
+    },
+    "android-gradle-logic": {
+      "url": "https://github.com/new-silvermoon/awesome-android-agent-skills.git",
+      "path": ".github/skills/build_and_tooling/android-gradle-logic",
+      "description": "Guide for managing complex Gradle builds and version catalogs"
+    },
+    "gemini-api-dev": {
+      "url": "https://github.com/google-gemini/gemini-skills.git",
+      "path": "skills/gemini-api-dev",
+      "description": "Guide for the Google Gemini Python SDK"
+    },
+    "gemini-live-api": {
+      "url": "https://github.com/google-gemini/gemini-skills.git",
+      "path": "skills/gemini-live-api-dev",
+      "description": "Guide for real-time interactions using the Gemini Live API"
+    },
+    "github-api": {
+      "url": "https://github.com/Yuyz0112/public-api-skills",
+      "path": "apis/github/github-v3-rest-api",
+      "description": "Guide for using the GitHub v3 REST API with agents"
+    }
+  },
+  "super_skills": {
+    "google-maps-3d-android": {
+      "description": "Google Maps 3D Android Super-Skill",
+      "skills": [
+        "maps-3d-sdk",
+        "edge-to-edge",
+        "navigation-3",
+        "compose-migration",
+        "android-security"
+      ]
+    }
+  }
+}
